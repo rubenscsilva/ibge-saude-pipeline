@@ -1,0 +1,21 @@
+# credentials - NUNCA commitar
+credentials.json
+*.json
+!schema/*.json
+
+# env
+.env
+
+# python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+
+# data local (raw fica no BQ, não no repo)
+data/raw/
+data/processed/
